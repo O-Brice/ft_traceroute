@@ -1,0 +1,37 @@
+Mandatory part
+The executable will be named ft_traceroute.
+You must code in C and turn-in a Makefile (respecting the usual rules).
+he only option you’ll have to manage is ––help.
+You have to solely manage a simple IPv4 (address/hostname) as a program parameter.
+You have to manage the FQDN without running the DNS resolution in the jump display.
+A 30ms +/- difference on a jump will be tolerated.
+fcntl, poll and ppoll functions are stricly forbidden.
+For your mandatory part, you will be able to use the following functions:
+    getpid / getuid.
+    getaddrinfo / gettimeofday.
+    getnameinfo.
+    gethostbyaddr.
+    inet_ntoa / inet_pton.
+    freeaddrinfo.
+    exit.
+    select.
+    setsockopt.
+    recvfrom / sendto.
+    ntohs / htons.
+    bind / socket / close.
+    strerror / gai_strerror.
+    the printf type functions.
+    the functions authorized in your libft (read, write, malloc, free).
+
+Hey, smarty (or not so smarty) pants ! You cannot call the real
+traceroute, of course !
+
+Bonus part
+
+You are free to add bonuses of your choice up to five for the maximum points, here is some interesting ideas:
+
+DNS management
+
+adding -i -m -p -s -q -N -t -l... flags
+
+The -V flag is not a valid bonus.

@@ -1,0 +1,38 @@
+Maintenant voila la fiche de correction
+
+Basic ft_traceroute
+Attempt to use this project with options.
+Preliminaries
+Before you start defense, please check the following points
+- Project is in C,
+- Project only uses authorized functions. Functions fcntl, poll and ppoll are not used.
+- A Makefile containing the usual rules is present.
+
+Checking arguments
+The program checks that the user has the available rights and correctly
+runs with the "h" option.
+The program displays a simple, clear and correct explanation about its usage.
+
+ft_traceroute ip
+For all every questions, you will compare the standard output with avec the traceroute system command. The number of jumps of the
+projet must be equal to the number of jumps of the real traceroute. A difference of +/- 30ms is acceptable in a packet. DNS
+resolution, in each hop of the tested adresses isn't mandatory.
+
+ft_traceroute good ip
+Run the program with a functioning and valid IPv4 adress.
+Reminder: a difference of +/- 30ms is acceptable in a packet.
+Is the program functioning identically to the system traceroute?
+
+ft_traceroute bad ip
+Run the program with a non-functioning and valid IPv4 adress.
+Is the program functioning identically to the system traceroute?
+
+ft_traceroute hostname
+ft_traceroute good hostname
+Run the program with a functioning and valid hostname.
+Is the program functioning identically to the system traceroute?
+
+ft_traceroute bad hostname
+Run the program with a non-functioning and valid hostname.
+Is the program functioning identically to the system traceroute?
+
